@@ -8,15 +8,15 @@ const About = (props) => {
 
   return (
     <Box>
-      <Grid container className={classes.about}>
+      <Grid container className={classes.about} id="about">
           <Grid item className={classes.aboutWidget} md={12} lg={4}>
             <h1 className={classes.aboutText}>about</h1>
-            <div className={classes.dots}>
+            {/* <div className={classes.dots}>
               <a href="#home" className={classes.dot}></a>
               <a href="#about" className={`${classes.dot} ${classes.dotActive}`}></a>
               <a href="#projects" className={classes.dot}></a>
               <a href="#contact" className={classes.dot}></a>
-            </div>
+            </div> */}
           </Grid>
           <Grid item md={12} lg={8} sx={{px: 5}}>
               <Box px={{sm: 0, md: 5}} mx={{sm: 0, md: 5}} sx={{pt: 3, pb: 5}} mb={{sm: 0, md: 5}}>

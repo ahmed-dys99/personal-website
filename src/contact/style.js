@@ -62,6 +62,9 @@ const useStyles = () => ({
 			color: "red",
         },
     },
+    socialIcons: {
+        marginTop: "100px",
+    },
     socialList: {
         display: "flex",
         justifyContent: "center",
