@@ -93,7 +93,7 @@ const Home = (props) => {
         <Box className={classes.myNameName}>Ahmed Haroon</Box>
         <Box className={classes.resume}>
           Go straight to my{" "}
-          <a className={classes.resumeLink} href="#">
+          <a className={classes.resumeLink} href="https://drive.google.com/file/d/1Ix6N1oTgQdDEAIMB1ZZvSn8XS-kkP2sy/view?usp=sharing" target="_blank">
             resume.
           </a>
         </Box>
