@@ -38,9 +38,9 @@ const useStyles = () => ({
     textAlign: "center",
   },
   dot: {
-    height: "6px",
-    width: "6px",
-    margin: "0 3px",
+    height: "0.9vh",
+    width: "0.9vh",
+    margin: "0 0.3vh",
     backgroundColor: "rgba(0,0,0,0)",
     border: "1.5px solid #fff",
     borderRadius: "50%",
@@ -68,17 +68,12 @@ const useStyles = () => ({
   },
   myNavListItem: {
     display: "inline-block",
-    paddingLeft: "15px",
-    paddingRight: "15px",
+    paddingLeft: "1.5vh",
+    paddingRight: "1.5vh",
     "&:hover": {
       "& a": {
         fontWeight: "500 !important",
       },
-    },
-    "@media (max-width: 400px) and (max-height: 740px)": {
-      fontSize: "13px",
-      paddingLeft: "8px",
-      paddingRight: "8px",
     },
   },
   myNavListItemActive: {
@@ -91,32 +86,33 @@ const useStyles = () => ({
     fontFamily: "'Montserrat', sans-serif",
     fontWeight: "300",
     textDecoration: "none",
+    fontSize: "1.9vh",
   },
   myName: {
     position: "relative",
     color: "white",
     verticalAlign: "middle",
     top: "50%",
-    transform: "translateY(-5.5rem)",
+    transform: "translateY(-100%)",
     textAlign: "center",
-    "@media (max-width: 400px) and (max-height: 740px)": {
-      transform: "translateY(-5.5rem)",
-    },
+    "@media (max-width: 1000px)": {
+      transform: "translateY(-150%)",
+    }
   },
   myNameName: {
     marginTop: "0",
-    marginBottom: "18px",
+    marginBottom: "1.5vh",
     fontFamily: "'Montserrat', sans-serif",
     fontWeight: "500",
-    "@media (max-width: 400px) and (max-height: 740px)": {
-      fontSize: "30px",
-    },
+    paddingLeft: "10px",
+    paddingRight: "10px",
+    fontSize: "4vh",
   },
   resume: {
     fontFamily: "'Montserrat', sans-serif",
-    fontSize: "15px",
     color: "#eee",
     fontWeight: "300",
+    fontSize: "1.8vh",
   },
   resumeLink: {
     textDecoration: "none",

@@ -7,15 +7,20 @@ const useStyles = () => ({
     contactWidget: {
         backgroundColor: "#292929",
         position: "relative",
+        minHeight: "100vh",
+    },
+    contactWidgetData: {
+        minHeight: "100vh",
     },
     contactText: {
         position: "relative",
-        top: "5%",
+        top: "5vh",
         fontFamily: "'Montserrat', sans-serif", 
         textAlign: "center",
         color: "#fff",
-        textShadow: "-10px 10px rgba(255, 255, 255, 0.2)",
+        textShadow: "-1vh 1vh rgba(255, 255, 255, 0.2)",
         fontWeight: "700",
+        fontSize: "4vh",
     },
     dots: {
         position: "relative",
@@ -62,9 +67,6 @@ const useStyles = () => ({
 			color: "red",
         },
     },
-    socialIcons: {
-        marginTop: "100px",
-    },
     socialList: {
         display: "flex",
         justifyContent: "center",
@@ -82,8 +84,8 @@ const useStyles = () => ({
         },
     },
     sIcon: {
-        padding: "12px",
-        width: "23px",
+        padding: "2vh",
+        width: "3.5vh",
         filter: "opacity(60%)",
     }
 });

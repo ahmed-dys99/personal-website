@@ -23,16 +23,16 @@ const Contact = (props) => {
                     <a href="#contact" className={`${classes.dot} ${classes.dotActive}`}></a>
                 </div> */}
             </Grid>
-            <Grid item md={12} lg={8} sx={{px: 5}}>
-                <Box px={{sm: 0, md: 5}} mx={{sm: 0, md: 5}} sx={{pt: 3, pb: 5}} mb={{sm: 0, md: 5}}>
-                    <Box className={`${classes.text} ${classes.h5}`} sx={{ mt:5, pt: 5 }}>Want to know more about me? Hit me up. I'd love to talk.</Box>
-					<Box className={`${classes.text} ${classes.p}`} sx={{ mb:0, pt: 4 }}>I'm the most active on my email:</Box>
-                    <Box sx={{ pt: 1 }}><a className={`${classes.text} ${classes.link}`} href="mailto:ahmed.dys99@gmail.com">ahmed.dys99@gmail.com</a></Box>
-					<Box className={`${classes.text} ${classes.p}`} sx={{ pt: 3 }}>You can also connect with me on <a className={`${classes.text} ${classes.link}`} href="https://www.linkedin.com/in/ahmed-dys99/">Linkedin</a>.</Box>
-                    <Box className={classes.socialIcons} sx={{ pb: 4}}>
-                        <Box className={`${classes.text} ${classes.h5}`} sx={{mb: 2}} >Ahmed Haroon</Box>
+            <Grid item md={12} lg={8} sx={{px: 5}} className={classes.contactWidgetData}>
+                <Box style={{padding: "3.5vh"}}>
+                    <Box className={`${classes.text} ${classes.h5}`} style={{paddingTop: "6vh"}}>Want to know more about me? Hit me up. I'd love to talk.</Box>
+					<Box className={`${classes.text} ${classes.p}`} style={{paddingTop: "5vh"}}>I'm the most active on my email:</Box>
+                    <Box style={{paddingTop: "1vh"}}><a className={`${classes.text} ${classes.link}`} href="mailto:ahmed.dys99@gmail.com">ahmed.dys99@gmail.com</a></Box>
+					<Box className={`${classes.text} ${classes.p}`} style={{paddingTop: "3vh"}}>You can also connect with me on <a className={`${classes.text} ${classes.link}`} href="https://www.linkedin.com/in/ahmed-dys99/">Linkedin</a>.</Box>
+                    <Box className={classes.socialIcons} style={{paddingTop: "10vh", paddingBottom: "4vh"}}>
+                        <Box className={`${classes.text} ${classes.h5}`} style={{paddingBottom: "2vh"}} >Ahmed Haroon</Box>
                         <Box className={`${classes.text} ${classes.p}`}>I dream big.</Box>
-                        <Box sx={{pb: 3, pt: 5}}>
+                        <Box style={{paddingTop: "8vh"}}>
                             <ul className={classes.socialList}>
                                 <li>
                                     <a href="https://www.linkedin.com/in/ahmed-dys99/">
@@ -45,12 +45,12 @@ const Contact = (props) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/lenodo_eastern">
+                                    <a href="https://twitter.com/ahmed_dys99">
                                         <img className={classes.sIcon} src={twitter} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/lenodoeastern">
+                                    <a href="https://github.com/ahmed-dys99">
                                         <img className={classes.sIcon} src={github} />
                                     </a>
                                 </li>

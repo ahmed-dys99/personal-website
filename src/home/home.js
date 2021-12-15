@@ -3,6 +3,7 @@ import halfCircle from "../assets/svg/half-circle.svg";
 import straightDottedCircle from "../assets/svg/straight-dotted-circle.svg";
 import quarterDash from "../assets/svg/quarter-dash.svg";
 import quarter from "../assets/svg/quarter.svg";
+import { Box } from "@mui/system";
 import useStyles from "./styles";
 import { withStyles } from "@mui/styles";
 
@@ -89,13 +90,13 @@ const Home = (props) => {
       </div>
 
       <div className={classes.myName}>
-        <h1 className={classes.myNameName}>Ahmed Haroon</h1>
-        <p className={classes.resume}>
+        <Box className={classes.myNameName}>Ahmed Haroon</Box>
+        <Box className={classes.resume}>
           Go straight to my{" "}
           <a className={classes.resumeLink} href="#">
             resume.
           </a>
-        </p>
+        </Box>
       </div>
 
       <div className={classes.myNav}>

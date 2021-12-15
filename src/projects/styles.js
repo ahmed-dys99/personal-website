@@ -5,17 +5,19 @@ const useStyles = () => ({
     textJustify: "inter-word !important",
   },
   projectsWidget: {
-    backgroundColor: "white",
+    backgroundColor: "#f6f6f6",
     position: "relative",
+    minHeight: "100vh",
   },
   projectsText: {
     position: "relative",
-    top: "5%",
+    top: "5vh",
     fontFamily: "'Montserrat', sans-serif", 
     textAlign: "center",
     color: "#555",
-    textShadow: "-10px 10px rgba(85, 85, 85, 0.2)",
+    textShadow: "-1vh 1vh rgba(85, 85, 85, 0.2)",
     fontWeight: "700",
+    fontSize: "4vh",
   },
   dots: {
     position: "relative",
@@ -50,18 +52,18 @@ const useStyles = () => ({
   },
   h5: {
     fontWeight: "500",
-    fontSize: "1.15rem",        
+    fontSize: "2.2vh",
+    paddingBottom: "1vh",        
   },
   p: {
     fontWeight: "400",
-    fontSize: "16px",
-    lineHeight: "180%",
+    fontSize: "1.95vh",
   },
   id: {
     position: "absolute",
     top: "0",
-    paddingTop: "5%",
-    paddingLeft: "5%",
+    paddingTop: "5vh",
+    paddingLeft: "5vh",
   },
   projImageContainer: {
     display: "flex",
@@ -71,12 +73,13 @@ const useStyles = () => ({
     position: "absolute",
     top: "50%",
     transform: "translate(0, -55%)",
+    height: "50vh",
   },
   description: {
     position: "absolute",
     bottom: "0",
-    paddingBottom: "5%",
-    paddingLeft: "5%",
+    paddingBottom: "5vh",
+    paddingLeft: "5vh",
   }
 });
 
